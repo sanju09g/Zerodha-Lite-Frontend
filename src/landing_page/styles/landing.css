@@ -1,0 +1,30 @@
+.nav-link{
+    margin-left: 30px;
+  }
+  
+  .para{
+    font-size: 12px;
+  }
+  
+  /* Raise Ticket */
+  
+  .account-opening::before {
+    font-family: "Font Awesome 6 Free"; 
+    content: "\f196"; /* Unicode for fa-square-plus */
+    font-weight: 400; 
+    margin-right: 8px; 
+  }
+  
+  
+  .inp-sign{
+    display: inline-block;
+    width: 95px;
+    text-align: center;
+    height: 55px;
+    font-size: 18px;
+    padding:13.5px;
+    background-color:white;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+  } 
