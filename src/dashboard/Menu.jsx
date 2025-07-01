@@ -22,7 +22,7 @@ const Menu = () => {
 
   const handleLogout = async () => {
     try {
-      await axios.get(`${import.meta.env.VITE_API_BASE_URL}/auth/logout`,{withCredentials:true});
+      await axios.get("https://zerodha-lite-backend.onrender.com/auth/logout",{withCredentials:true});
       navigate("/login");
       alert("Logged out.");
     } catch (error) {

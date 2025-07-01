@@ -22,7 +22,7 @@ function Signup() {
   
     try {
       const response = await axios.post(
-        "http://localhost:5000/auth/signup",
+        "https://zerodha-lite-backend.onrender.com/auth/signup",
         {
           username,
           email,
