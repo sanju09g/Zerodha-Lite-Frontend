@@ -9,7 +9,7 @@ const Home = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(null); // null = not checked yet
 
   useEffect(() => {
-     axios.get("http://localhost:5000/dashboard", { withCredentials: true })
+     axios.get("https://zerodha-lite-backend.onrender.com/dashboard", { withCredentials: true })
       .then((res) => {
         setIsAuthenticated(true);
        
